@@ -1,0 +1,423 @@
+* {
+  box-sizing: border-box;
+}
+
+body, .fraim {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.fraim {
+  width: 390px;
+  height: 2060px;
+  background: #FF6347;
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.elipse1 {
+  width: 1004px;
+  height: 758px;
+  background: #FF7F50;
+  opacity: 5%;
+  position: absolute;
+  top: 587.68px;
+  left: -14.92px;
+  border-radius: 70%;
+  transform: rotate(10deg);
+}
+.elipse2 {
+  width: 167.79px;
+  height: 660.87px;
+  background: #800000;
+  opacity: 30%;
+  position: absolute;
+  top: 37.1px;
+  left: -310.31px;
+  border-radius: 80.37°%;
+  transform: rotate(10deg);
+  z-index: 10;
+}
+.elipse3 {
+  width: 1004px;
+  height: 758px;
+  background: #FF7F50;
+  opacity: 5%;
+  position: absolute;
+  top: 587.68px;
+  left: -14.92px;
+  border-radius: 70%;
+  transform: rotate(10deg);
+}
+
+.main_logo {
+  width: 15px;
+  height: 15px;
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/main_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 38px;
+  left: 20px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.main_logo_text {
+  width: 139px;
+  height: 15px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 38px;
+  left: 41px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 12px;
+  opacity: 2;
+  text-align: left;
+  z-index: 10;
+}
+.slogan_text {
+  width: 129px;
+  height: 25px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 52px;
+  left: 43px;
+  text-shadow: 0.1px 0.1px 0.1px #000000;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+  z-index: 10;
+}
+
+.tgchnl_text {
+  width: 169px;
+  height: 21px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 38px;
+  left: 204px;
+  text-shadow: 0.7px 0.7px 0.7px #000000;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+  z-index: 10;
+}
+.alicats_logo {
+  width: 30px;
+  height: 30px;
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/alicats_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 1px 1px 0px #000000;
+  opacity: 1;
+  position: absolute;
+  top: 61px;
+  left: 260px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.shara_logo {
+  width: 30px;
+  height: 30px;
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/shara_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 1px 1px 0px #000000;
+  opacity: 1;
+  position: absolute;
+  top: 61px;
+  left: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+.coupons_logo {
+  width: 30px;
+  height: 30px;
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/coupons_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  box-shadow: 1px 1px 0px #000000;
+  opacity: 1;
+  position: absolute;
+  top: 61px;
+  left: 340px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+
+.cat_img {
+  width: 50px;
+  height: 50px;
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/v661_11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.7;
+  position: fixed; /* Змінено з absolute на fixed */
+  top: 52px;
+  left: 195px;
+  overflow: hidden;
+}
+.main_text {
+  width: 353px;
+  height: 53px;
+  color: #F5F5DC;
+  position: absolute;
+  top: 115px;
+  left: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  text-shadow: 0.7px 0.7px 0.5px #000000;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.action_name {
+  width: 241px;
+  height: 27px;
+  color: #FFFF00;
+  position: absolute;
+  top: 178px;
+  left: 19px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 26px;
+  text-shadow: 1px 1px 0px #000000;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.up_to {
+  width: 233px;
+  height: 26px;
+  color: #0C0B0B;
+  position: absolute;
+  top: 205px;
+  left: 21px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  text-shadow: 0.7px 0.7px 0.5px #FFFFFF;
+  opacity: 1;
+  text-align: left;
+  line-height: 2.6;
+}
+.holovna_page {
+  width: 233px;
+  height: 30px;
+  color: #FFFFE0;
+  position: absolute;
+  top: 240px;
+  left: 19px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #000000;
+  opacity: 1;
+  text-align: left;
+  line-height: 2;
+}
+.holovna_pagelink {
+  display: block; /* Зробити посилання блоковим елементом */
+  width: 274px;
+  height: 34px;
+  background: url("https://ae01.alicdn.com/kf/S00215c8c687244e5b6c9c74ef6654b1a0.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 270px;
+  left: 17px;
+  border: 1px solid #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 10px;
+  line-height: 2.6;
+  overflow: hidden;
+}
+.holovna_page_ua {
+  width: 259px;
+  height: 30px;
+  color: #FFFFE0;
+  position: absolute;
+  top: 308px;
+  left: 19px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #000000;
+  opacity: 1;
+  text-align: left;
+  line-height: 2;
+}
+.holovna_pagelink_ua {
+  display: block; /* Зробити посилання блоковим елементом */
+  width: 274px;
+  height: 34px;
+  background: url("https://ae01.alicdn.com/kf/S63e19090d9f74d799e2330ea502d3dbcB.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 338px;
+  left: 17px;
+  border: 1px solid #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 10px;
+  line-height: 2.6;
+  overflow: hidden;
+}
+
+.bestsellers_text {
+  width: 233px;
+  height: 30px;
+  color: #FFFFE0;
+  position: absolute;
+  top: 390px;
+  left: 19px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #000000;
+  opacity: 1;
+  text-align: left;
+  line-height: 2;
+}
+.bestsellers_pagelink {
+  display: block; /* Зробити посилання блоковим елементом */
+  width: 274px;
+  height: 34px;
+  background: url("https://ae01.alicdn.com/kf/S6f06b251bdef4042b154099f7e29b75es.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 420px;
+  left: 17px;
+  border: 1px solid #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 10px;
+  line-height: 2.6;
+  overflow: hidden;
+}
+
+.bestsellers-text_ua {
+  width: 259px;
+  height: 30px;
+  color: #FFFFE0;
+  position: absolute;
+  top: 458px;
+  left: 19px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #000000;
+  opacity: 1;
+  text-align: left;
+  line-height: 2;
+}
+.bestsellers_pagelink_ua {
+  display: block; /* Зробити посилання блоковим елементом */
+  width: 274px;
+  height: 34px;
+  background: url("https://ae01.alicdn.com/kf/S6f06b251bdef4042b154099f7e29b75es.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 488px;
+  left: 17px;
+  border: 1px solid #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 10px;
+  line-height: 2.6;
+  overflow: hidden;
+}
+
+
+
+
+/* iPhone 8 390 x 844 */
+@media (min-width: 414px) and (max-width: 767px) {
+  .fraim {
+    width: 490px;
+    height: 2060px;
+  }
+  .main_logo {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* iPad mini 430 x 932 */
+@media (min-width: 767px) and (max-width: 908px) {
+  .fraim {
+    width: 910px;
+    height: 2060px;
+  }
+  .main_logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* PC */
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .fraim {
+    width: 1054px;
+    height: 2060px;
+  }
+  .main_logo {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+
+
