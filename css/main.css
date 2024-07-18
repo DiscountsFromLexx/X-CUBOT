@@ -1041,9 +1041,81 @@ body, .fraim {
     width: 910px;
     height: 2060px;
   }
+  .elipse1 {
+    top: 547.68px;
+    left: -230px;
+    width: 1504px;
+    height: 718px;
+}
+  .elipse2 {
+    top: -5px;
+    left: -250px;
+    width: 1504px;
+    height: 158px;
+
+ }
   .main_logo {
+    top: 38px;
+    left: 21px;
     width: 60px;
     height: 60px;
+  }
+  .main_logo_text {
+    top: 35px;
+    left: 90px;
+    width: 399px;
+    height: 10px;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .slogan_text {
+    top: 70px;
+    left: 90px;
+    width: 299px;
+    height: 15px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .tgchnl_text {
+    top: 35px;
+    left: 490px;
+    width: 400px;
+    height: 21px;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 26px;;
+  }
+  .alicats_logo, .shara_logo, .coupons_logo {
+      width: 70px;
+      height: 70px;
+      box-shadow: 5px 5px 0px #000000;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius:5px;
+      border-bottom-right-radius: 5px;
+
+  }
+  .alicats_logo {
+      top: 80px;
+      left: 645px;
+      margin-left: -45px;
+  }
+  .shara_logo {
+      top: 80px;
+      left: 715px;
+
+      margin-left: -20px;
+  }
+  .coupons_logo {
+      top: 80px;
+      left: 790px;
+  }
+  .cat_img {
+    top: 52px;
+    left: 450px;
+    width: 100px;
+    height: 100px;
   }
 }
 
