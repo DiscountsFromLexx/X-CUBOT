@@ -1043,10 +1043,10 @@ body, .fraim {
   }
   .elipse1 {
     top: 980px;
-    left: -400px;
+    left: -490px;
     width: 2004px;
-    height: 718px;
-    transform: rotate(2deg);
+    height: 1428px;
+    transform: rotate(1deg);
 }
   .elipse2 {
     top: -75px;
@@ -1273,7 +1273,7 @@ body, .fraim {
       font-weight: 300;
       font-size: 28px;
       color: #191970;
-      text-shadow: 0px 0px 0px #000000;
+      text-shadow: 0px 0px 35px #fff;
     }
     .code_link3 {
       top: 1259px;
