@@ -21,7 +21,7 @@ body, .fraim {
   box-sizing: border-box;
 }
 .fraim2 {
-  width: 400px;
+  width: auto;
   height: 110px;
   background: #FF6347;
   opacity: 1;
@@ -30,6 +30,13 @@ body, .fraim {
   left: 0;
   overflow: hidden;
   box-sizing: border-box;
+}
+.night_block {
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  margin-left: 20px;;
 }
 
 .elipse1 {
@@ -1068,7 +1075,7 @@ body, .fraim {
 @media (min-width: 767px) and (max-width: 908px) {
   .fraim {
     width: 910px;
-    height: 3950px;
+    height: 3850px;
   }
   .fraim2 {
   width: 910px;
@@ -1080,6 +1087,13 @@ body, .fraim {
   left: 0;
   overflow: hidden;
   box-sizing: border-box;
+}
+.night_block {
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  margin-left: 40px;;
 }
   .elipse1 {
     top: 980px;
@@ -1397,7 +1411,7 @@ body, .fraim {
       opacity: 1;
       border: 0px solid #FFFFFF;
       border-radius: 10px;
-      position: ;
+      position: absolute;
       margin-bottom: 10px;
       line-height: 1.6;
       overflow: hidden;
@@ -1411,7 +1425,7 @@ body, .fraim {
       width: 573px;
       height: 20px;
       color: #FFFFE0;
-      position: ;
+      position: absolute ;
       font-family: Montserrat;
       font-weight: 600;
       font-size: 40px;
@@ -1686,6 +1700,3 @@ body, .fraim {
     height: 90px;
   }
 }
-
-
-
