@@ -1093,7 +1093,10 @@ body, .fraim {
   left: 0;
   width: auto;
   height: auto;
-  margin-left: 40px;;
+  margin-left: 40px;
+  position: relative;
+  transform: scale(1.7); /* Масштабування на 150% */
+  transform-origin: top left; /* Задання точки масштабування */
 }
   .elipse1 {
     top: 980px;
