@@ -1091,7 +1091,7 @@ body, .fraim {
 .night_block {
   top: 0;
   left: 0;
-  width: auto;
+  width: 510px;
   height: auto;
   margin-left: 40px;
   position: relative;
