@@ -1,0 +1,1672 @@
+* {
+  box-sizing: border-box;
+}
+
+body, .fraim {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.fraim {
+  width: 390px;
+  height: 2780px;
+  background: #808080;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.fraim2 {
+  width: auto;
+  height: 110px;
+  background: #FF6347;
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.night_block {
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  margin-left: 20px;;
+}
+
+
+.elipse2 {
+  top: -45px;
+  left: -230px;
+  width: 1004px;
+  height: 158px;
+  background: #000000;
+  opacity: 50%;
+  position: absolute;
+  border-radius: 30%;
+  transform: rotate(3deg);
+}
+
+.main_logo {
+  width: 15px;
+  height: 15px;
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/main_logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 38px;
+  left: 20px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.main_logo_text {
+  width: 139px;
+  height: 15px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 38px;
+  left: 41px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 12px;
+  opacity: 2;
+  text-align: left;
+  z-index: 10;
+}
+.slogan_text {
+  width: 129px;
+  height: 25px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 52px;
+  left: 43px;
+  text-shadow: 0.1px 0.1px 0.1px #000000;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+  z-index: 10;
+}
+
+.tgchnl_text {
+  width: 169px;
+  height: 21px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 38px;
+  left: 204px;
+  text-shadow: 0.7px 0.7px 0.7px #000000;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+  z-index: 10;
+}
+
+.alicats_logo, .shara_logo, .coupons_logo {
+  display: block;
+  width: 30px;
+  height: 30px;
+  top: 61px;
+  box-shadow: 0px 0px 0px #FFFFFF;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  opacity: 1;
+  position: absolute;
+
+}
+.alicats_logo {
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/alicats_logo.png");
+  background-size: cover;
+  left: 260px;
+}
+.shara_logo {
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/shara_logo.png");
+  left: 300px;
+  background-size: cover;
+}
+.coupons_logo {
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/coupons_logo.png");
+  left: 340px;
+  background-size: cover;
+}
+
+.cat_img {
+  width: 50px;
+  height: 50px;
+  background: url("https://raw.githubusercontent.com/DiscountsFromAli/DISCOUNTS-FROM-ALI/50b8ef25d272800693752ad34036703decfa91ba/images/v661_11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: fixed; /* Змінено з absolute на fixed */
+  top: 52px;
+  left: 195px;
+  overflow: hidden;
+}
+.main_text {
+  top: 125px;
+  left: 19px;
+  width: 380px;
+  height: 53px;
+  color: #FFFFFF;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  text-shadow: 0.7px 0.7px 0.5px #000000;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.action_name {
+  top: 190px;
+  left: 19px;
+  width: 361px;
+  height: 27px;
+  color: #000000;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 26px;
+  text-shadow: 1px 1px 5px #FFFFFF;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.up_to {
+  top: 228px;
+  left: 21px;
+  width: 380px;
+  height: 200px;
+  color: #FFFFFF;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  text-shadow: 0px 0px 5px #000000;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.holovna_page {
+  top: 305px;
+  left: 19px;
+  width: 390px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 26px;
+  text-shadow: 1px 1px 15px #FFFFFF;
+  opacity: 1;
+  text-align: left;
+  line-height: 2;
+}
+.holovna_pagelink {
+  display: block; /* Зробити посилання блоковим елементом */
+  top: 345px;
+  left: 5px;
+  width: 370px;
+  height: 50px;
+  background: url("https://ae01.alicdn.com/kf/S82904683b91445e5b37aeb352bd2b9f2Z.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  border: 0.5px solid #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 5px;
+  line-height: 2.6;
+  overflow: hidden;
+}
+
+.premjera_text {
+  top: 410px;
+  left: 19px;
+  width: 380px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 26px;
+  text-shadow: 1px 1px 15px #FFFFFF;
+  opacity: 1;
+  text-align: left;
+  line-height: 2;
+}
+.kingkong_text {
+  top: 450px;
+  left: 19px;
+  width: 233px;
+  height: 30px;
+  color: #F5F5F5;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #000000;
+  opacity: 1;
+  text-align: left;
+  line-height: 2;
+}
+.kingkong_pagelink {
+  display: block; /* Зробити посилання блоковим елементом */
+  top: 480px;
+  left: 17px;
+  width: 293px;
+  height: 102px;
+  background: url("https://ae01.alicdn.com/kf/S1235c4c687ee444988fec0aebf44facb6.png_.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  border: 1px solid #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 10px;
+  line-height: 2.6;
+  overflow: hidden;
+}
+.kingkong_codecontainer {
+  display: block;
+  left: 15px;
+  top: 585px;
+  width: 243px;
+  height: 80px;
+  background-color: #808080;
+  opacity: 1;
+  border: 0px solid #FFFFFF;
+  border-radius: 10px;
+  position: absolute;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  overflow: hidden;
+  z-index: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.kingkong_codeword {
+  display: inline-block;
+  left: 33px;
+  top: 1591px;
+  width: auto;
+  height: auto;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.kingkong_codetext {
+  display: inline-block;
+  left: 83px;
+  top: 1591px;
+  width: auto;
+  height: auto;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+
+}
+.kingkong_codesum {
+  left: 34px;
+  top: 1611px;
+  width: 57px;
+  height: 25px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.datecode_kingkong {
+  left: 33px;
+  top: 1632px;
+  width: 318px;
+  height: 30px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.kingkong_codelink {
+  left: 33px;
+  top: 1659px;
+  width: 293px;
+  height: 25px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 10px;
+  color: #191970;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.max5 {
+  top: 780px;
+  left: 19px;
+  width: 233px;
+  height: 30px;
+  color: #F5F5F5;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #000000;
+  opacity: 1;
+  text-align: left;
+  line-height: 2;
+}
+.max5_pagelink {
+  display: block; /* Зробити посилання блоковим елементом */
+  top: 810px;
+  left: 17px;
+  width: 293px;
+  height: 105px;
+  background: url("https://ae01.alicdn.com/kf/S7890a146604949e0a6895798ae1f9744H.png_.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  border: 1px solid #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 10px;
+  line-height: 2.6;
+  overflow: hidden;
+}
+
+.ACE3_codecontainer {
+  display: block;
+  left: 15px;
+  top: 675px;
+  width: 343px;
+  height: 114px;
+  background-color: #808080;
+  opacity: 1;
+  border: 0px solid #FFFFFF;
+  border-radius: 10px;
+  position: absolute;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  overflow: hidden;
+  z-index: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.ACE3_codeword {
+  display: inline-block;
+  left: 33px;
+  top: 1591px;
+  width: auto;
+  height: auto;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.ACE3_codetext {
+  display: inline-block;
+  left: 83px;
+  top: 1591px;
+  width: auto;
+  height: auto;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+
+}
+.ACE3_codesum {
+  left: 34px;
+  top: 1611px;
+  width: 57px;
+  height: 25px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.datecode_ACE3 {
+  left: 33px;
+  top: 1632px;
+  width: 318px;
+  height: 30px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.ACE3_codelink {
+  left: 33px;
+  top: 1659px;
+  width: 293px;
+  height: 25px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 10px;
+  color: #191970;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.max5_codecontainer {
+  display: block;
+  left: 15px;
+  top: 915px;
+  width: 243px;
+  height: 80px;
+  background-color: #808080;
+  opacity: 1;
+  border: 0px solid #FFFFFF;
+  border-radius: 10px;
+  position: absolute;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  overflow: hidden;
+  z-index: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.max5_codeword {
+  display: inline-block;
+  left: 33px;
+  top: 1591px;
+  width: auto;
+  height: auto;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.max5_codetext {
+  display: inline-block;
+  left: 83px;
+  top: 1591px;
+  width: auto;
+  height: auto;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+
+}
+.max5_codesum {
+  left: 34px;
+  top: 1611px;
+  width: 57px;
+  height: 25px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.datecode_max5 {
+  left: 33px;
+  top: 1632px;
+  width: 318px;
+  height: 30px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+.max5_codelink {
+  left: 33px;
+  top: 1659px;
+  width: 293px;
+  height: 25px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 10px;
+  color: #191970;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.bestsellers_text {
+  top: 1010px;
+  left: 19px;
+  width: 233px;
+  height: 30px;
+  color: #000000;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 26px;
+  text-shadow: 1px 1px 15px #FFFFFF;
+  opacity: 1;
+  text-align: left;
+  line-height: 2;
+}
+.bestsellers_pagelink {
+  display: block; /* Зробити посилання блоковим елементом */
+  top: 1055px;
+  left: 5px;
+  width: 370px;
+  height: 40px;
+  background: url("https://ae01.alicdn.com/kf/Sdcdfe8592c064bf296a23eea5d345063f.png_.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  border: 0.5px solid #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 5px;
+  line-height: 2.6;
+  overflow: hidden;
+}
+
+.codecontainer3, .codecontainer99, .codecontainer189, .codecontainer219, .codecontainer399 {
+  display: block;
+  left: 15px;
+
+  width: 343px;
+  height: 80px;
+  background-color: #808080;
+  opacity: 1;
+  border: 0px solid #FFFFFF;
+  border-radius: 10px;
+  position: absolute;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  overflow: hidden;
+  z-index: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.codecontainer3 {
+  top: 1095px;
+}
+
+.codecontainer99 {
+  top: 1195px;
+}
+
+.codecontainer189 {
+  top: 1295px;
+}
+
+.codecontainer219 {
+  top: 1395px;
+}
+
+.codecontainer399 {
+  top: 1495px;
+}
+.codeword3, .codeword99, .codeword189, .codeword219, .codeword399 {
+  display: inline-block;
+  left: 33px;
+
+  width: auto;
+  height: auto;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.codetext3, .codetext99, .codetext189, .codetext219,.codetext399 {
+  display: inline-block;
+  left: 83px;
+  width: auto;
+  height: auto;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.codesum3, .codesum99, .codesum189, .codesum219, .codesum399 {
+  left: 34px;
+  top: 1611px;
+  width: 57px;
+  height: 25px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.datecode3 , .datecode99, .datecode189 , .datecode219, .datecode399 {
+  left: 33px;
+  top: 1632px;
+  width: 318px;
+  height: 30px;
+  font-family: Montserrat;
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.5;
+}
+
+
+.smart_links {
+  display: inline-block;
+  left: 0px;
+  top: 1625px;
+  width: 373px;
+  height: 20px;
+  color: #FFFFFF;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 26px;
+  text-shadow: 1px 1px 15px #000000;
+  opacity: 1;
+  text-align: center;
+  line-height: 1;
+  z-index: 10;
+}
+.thanks_container {
+  display: inline-block;
+  left: 19px;
+  top: 2490px;
+  width: 325px;
+  height: 85px;
+  background-color: ;
+  opacity: 1;
+  border: 0px solid #FFFFFF;
+  border-radius: 10px;
+  position: absolute;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  overflow: hidden;
+  z-index: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.thanks {
+  display: inline-block;
+  left: 19px;
+  top: 2110px;
+  width: 373px;
+  height: 20px;
+  color: #FFFFFF;
+  position: ;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 22px;
+  text-shadow: 2px 2px 0px #000000;
+  opacity: 1;
+  text-align: left;
+  line-height: 1;
+  z-index: 10;
+}
+.block-link {
+  display: block;
+  width: 5%;
+  height: 15%;
+  text-decoration: none;
+  color: inherit; /* Якщо потрібно, можна задати кольори і текстовий декор */
+}
+.coins_sale_block, .night_sale_block, .coupons_block, .coins_bot_block, .pedro_bot_block {
+  display: block;
+  left: 53px;
+  background-color: #696969;
+  opacity: 100%;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  position: absolute;
+  line-height: 1.3;
+  overflow: hidden;
+  z-index: 1;
+  padding: 20px;
+  box-shadow: 2px 2px 8px #000000;
+  box-sizing: border-box;
+}
+.coins_sale_block {
+  top: 1668px;
+  height: 115px;
+}
+.coins_sale_name {
+  display: block;
+  left: 76px;
+  top: 1719px;
+  width: 235px;
+  height: 38px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+}
+.coins_sale_text {
+  display: block;
+  left: 80px;
+  top: 1730.7px;
+  width: 243.32px;
+  height: 32.3px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  margin-top: 5px;
+  opacity: 1;
+  text-align: left;
+
+}
+.night_sale_block {
+  top: 1778px;
+  width: 284px;
+  margin-top: 15px;
+}
+.night_sale_name {
+  display: block;
+  left: 76px;
+  top: 1787px;
+  width: 235px;
+  height: 38px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+
+}
+.night_sale_text {
+  display: block;
+  left: 80px;
+  top: 1330.7px;
+  width: 243.32px;
+  height: 32.3px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  margin-top: 5px;
+  opacity: 1;
+  text-align: left;
+
+}
+.coupons_block {
+  top: 1890px;
+  height: 115px;
+  margin-top: 30px;
+}
+.coupons_name {
+  display: block;
+  left: 76px;
+  top: 1787px;
+  width: 235px;
+  height: 38px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+
+}
+.coupons_text {
+  display: block;
+  left: 80px;
+  top: 1330.7px;
+  width: 243.32px;
+  height: 32.3px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  margin-top: 5px;
+  opacity: 1;
+  text-align: left;
+}
+.coins_bot_block {
+  top: 2000px;
+  height: 174px;
+  margin-top: 45px;
+}
+.coins_bot_name {
+  display: block;
+  left: 76px;
+  top: 1287px;
+  width: 235px;
+  height: 38px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+
+}
+.coins_bot_text {
+  display: block;
+  left: 80px;
+  top: 1330.7px;
+  width: 243.32px;
+  height: 32.3px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #FFFFFF;
+  position: ;
+  margin-top: 5px;
+  opacity: 1;
+  text-align: left;
+
+}
+.pedro_bot_block {
+  top: 2170px;
+  height: 174px;
+  margin-top: 60px;
+}
+.pedro_bot_name {
+  display: block;
+  left: 76px;
+  top: 1287px;
+  width: 235px;
+  height: 38px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  opacity: 1;
+  text-align: left;
+
+}
+.pedro_bot_text {
+  display: block;
+  left: 80px;
+  top: 1330.7px;
+  width: 243.32px;
+  height: 32.3px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 0px #000000;
+  position: ;
+  margin-top: 5px;
+  opacity: 1;
+  text-align: left;
+
+}
+
+
+/* iPhone 8 390 x 844 */
+@media (min-width: 414px) and (max-width: 767px) {
+  .fraim {
+    width: 490px;
+    height: 2580px;
+  }
+  .main_logo {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+/* iPad mini 430 x 932 */
+@media (min-width: 767px) and (max-width: 908px) {
+  .fraim {
+    width: 910px;
+    height: 3850px;
+  }
+  .fraim2 {
+  width: 910px;
+  height: 170px;
+  background: #FF6347;
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.night_block {
+  top: 0;
+  left: 0;
+  width: 510px;
+  height: auto;
+  margin-left: 40px;
+  position: relative;
+  transform: scale(1.7); /* Масштабування на 150% */
+  transform-origin: top left; /* Задання точки масштабування */
+}
+  .elipse1 {
+    top: 980px;
+    left: -490px;
+    width: 2004px;
+    height: 1428px;
+    transform: rotate(1deg);
+}
+  .elipse2 {
+    top: -75px;
+    left: -400px;
+    width: 1504px;
+    height: 258px;
+
+ }
+  .main_logo {
+    top: 38px;
+    left: 21px;
+    width: 60px;
+    height: 60px;
+  }
+  .main_logo_text {
+    top: 35px;
+    left: 90px;
+    width: 399px;
+    height: 10px;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .slogan_text {
+    top: 70px;
+    left: 90px;
+    width: 299px;
+    height: 15px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .tgchnl_text {
+    top: 35px;
+    left: 490px;
+    width: 400px;
+    height: 21px;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 26px;;
+  }
+  .alicats_logo, .shara_logo, .coupons_logo {
+      top: 80px;
+      width: 70px;
+      height: 70px;
+      box-shadow: 3px 3px 3px #000000;
+      border-radius: 2px;
+  }
+  .alicats_logo {
+      left: 645px;
+      margin-left: -45px;
+  }
+  .shara_logo {
+      left: 715px;
+      margin-left: -20px;
+  }
+  .coupons_logo {
+      left: 790px;
+  }
+  .cat_img {
+    top: 52px;
+    left: 2;
+    width: 100px;
+    height: 100px;
+    margin-left: 280px;
+  }
+  .main_text {
+    top: 200px;
+    width: 650px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 36px;
+    text-shadow: 0.7px 0.7px 0.5px #000000;
+    line-height: 1.5;
+  }
+  .action_name {
+    top: 305px;
+    left: 19px;
+    width: 441px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 1px 1px 0px #000000;
+    line-height: 1.5;
+      }
+      .up_to {
+        top: 345px;
+        left: 21px;
+        width: 330px;
+        height: 26px;
+        font-weight: 700;
+        font-size: 20px;
+        text-shadow: 0.7px 0.7px 0.5px #FFFFFF;
+        line-height: 2.6;
+      }
+      .holovna_page, .holovna_page_ua, .bestsellers_text, .bestsellers-text_ua  {
+      left: 19px;
+      width: 548px;
+      height: 30px;
+      font-weight: 900;
+      font-size: 34px;
+      text-shadow: 1px 1px 0px #000000;
+      line-height: 2;
+      }
+
+      .holovna_pagelink, .holovna_pagelink_ua, .bestsellers_pagelink, .bestsellers_pagelink_ua  {
+      width: 548px;
+      height: 68px;
+      left: 17px;
+      border: 1px solid #FFFFFF;
+      border-radius: 5px;
+      }
+        .holovna_page {
+          top: 400px;
+        }
+        .holovna_pagelink {
+          top: 460px;
+        }
+          .holovna_page_ua {
+          top: 540px;
+          }
+        .holovna_pagelink_ua {
+          top: 600px;
+        }
+        .bestsellers_text {
+          top: 680px;
+          }
+        .bestsellers_pagelink {
+          top: 740px;
+        }
+        .bestsellers-text_ua {
+          top: 820px;
+        }
+        .bestsellers_pagelink_ua {
+          top: 880px;
+        }
+
+    .promocodes {
+      top: 980px;
+      left: 19px;
+      width: 202px;
+      height: 31px;
+      font-weight: 900;
+      font-size: 34px;
+      text-shadow: 3px 3px 0px #000000;
+      line-height: 1.5;
+    }
+
+    .code_container3, .code_container8, .code_container20, .code_container30, .code_container50 {
+      left: 15px;
+      width: 650px;
+      height: 248px;
+      border: 2px solid #FFFFFF;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      line-height: 1.6;
+      padding: 10px;
+    }
+
+    .code_container3 {
+      top: 1050px;
+
+    }
+    .code_word {
+      display: inline-block;
+      left: 33px;
+      top: 1191px;
+      width: auto;
+      height: auto;
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 33px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+      position: ;
+      opacity: 1;
+      text-align: left;
+      line-height: 1.5;
+    }
+    .code_text3, .code_text8, .code_text20, .code_text30, .code_text50 {
+      width: auto;
+      height: auto;
+      left: 83px;
+      font-weight: 700;
+      font-size: 34px;
+      text-shadow: 0px 0px 0px #000000
+      text-align: left;
+      line-height: 1.5;
+      margin-left: 5px;
+    }
+    .code_text3 {
+      top: 1191px;
+    }
+
+    .code_sum3, .code_sum8, .code_sum20, .code_sum30, .code_sum50 {
+      left: 35px;
+      width: 57px;
+      height: 25px;
+      font-weight: 500;
+      font-size: 32px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+    }
+    .code_sum3 {
+      top: 1211px;
+    }
+    .date-code {
+      left: 33px;
+      top: 1232px;
+      width: 318px;
+      height: 30px;
+      font-family: Montserrat;
+      font-weight: 300;
+      font-size: 24px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+      position: ;
+      opacity: 1;
+      text-align: left;
+      line-height: 3;
+    }
+    .code_link3, .code_link8, .code_link20, .code_link30, .code_link50 {
+      left: 33px;
+      width: 293px;
+      height: 25px;
+      font-weight: 300;
+      font-size: 28px;
+      color: #191970;
+      text-shadow: 0px 0px 35px #fff;
+    }
+    .code_link3 {
+      top: 1259px;
+    }
+    .code_container8 {
+      top: 1313px;
+      margin-top: 10px;
+    }
+    .code_text8 {
+      top: 1191px;
+    }
+    .code_sum8 {
+      top: 1211px;
+    }
+    .code_link8 {
+      top: 1259px;
+    }
+    .code_container20 {
+      top: 1446px;
+      margin-top: 150px;
+    }
+    .code_text20 {
+      top: 1191px;
+    }
+    .code_sum20 {
+      top: 1211px;
+    }
+    .code_link20 {
+      top: 1259px;
+    }
+    .code_container30 {
+      top: 1579px;
+      margin-top: 290px;
+    }
+    .code_text30 {
+      top: 1191px;
+    }
+    .code_sum30 {
+      top: 1211px;
+    }
+    .code_link30 {
+      top: 1259px;
+    }
+    .code_container50 {
+      top: 1712px;
+      margin-top: 420px;
+    }
+    .code_text50 {
+      top: 1191px;
+    }
+    .code_sum50 {
+      top: 1211px;
+    }
+    .code_link50 {
+      top: 1259px;
+    }
+    .smart_links {
+      display: inline-block;
+      left: 29px;
+      top: 2450px;
+      width: 370px;
+      height: 20px;
+      color: #FFFFE0;
+      position: absolute;
+      font-family: Montserrat;
+      font-weight: 900;
+      font-size: 48px;
+      text-shadow: 1px 1px 0px #000000;
+      opacity: 1;
+      text-align: left;
+      line-height: 1;
+      z-index: 10;
+    }
+    .thanks_container {
+      display: block;
+      left: 22px;
+      top: 3360px;
+      width: 600px;
+      height: 185px;
+      background-color: ;
+      opacity: 1;
+      border: 0px solid #FFFFFF;
+      border-radius: 10px;
+      position: absolute;
+      margin-bottom: 10px;
+      line-height: 1.6;
+      overflow: hidden;
+      z-index: 1;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .thanks {
+      left: 22px;
+      top: 3360px;
+      width: 573px;
+      height: 20px;
+      color: #FFFFE0;
+      position: absolute ;
+      font-family: Montserrat;
+      font-weight: 600;
+      font-size: 40px;
+      text-shadow: 3px 3px 0px #000000;
+      opacity: 1;
+      text-align: left;
+      line-height: 1.5;
+      z-index: 10;
+    }
+    .block-link {
+      display: block;
+      width: 5%;
+      height: 15%;
+      text-decoration: none;
+      color: inherit; /* Якщо потрібно, можна задати кольори і текстовий декор */
+    }
+    .coins_sale_block {
+      display: block;
+      left: 53px;
+      top: 2550px;
+      width: 284px;
+      height: 115px;
+      background-color: #FF7F50;
+      opacity: 100%;
+      border: 1px solid #FFFFFF;
+      border-radius: 10px;
+      position: absolute;
+      line-height: 1;
+      overflow: hidden;
+      z-index: 1;
+      padding: 20px;
+      box-shadow: 2px 2px 8px #000000;
+      box-sizing: border-box;
+    }
+    .coins_sale_name {
+      display: block;
+      left: 76px;
+      top: 1587px;
+      width: 235px;
+      height: 38px;
+      font-family: Montserrat;
+      font-weight: 900;
+      font-size: 36px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+      position: ;
+      opacity: 1;
+      text-align: left;
+    }
+    .coins_sale_text {
+      display: block;
+      left: 80px;
+      top: 2430.7px;
+      width: 243.32px;
+      height: 32.3px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 12px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+      position: ;
+      margin-top: 5px;
+      opacity: 1;
+      text-align: left;
+
+    }
+    .night_sale_block {
+      display: block;
+      position: absolute;
+      left: 53px;
+      top: 2665px;
+      width: 284px;
+      height: 115px;
+      background-color: #FF7F50;
+      opacity: 100%;
+      border: 1px solid #FFFFFF;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 2px 2px 8px #000000;
+      box-sizing: border-box;
+      margin-top: 15px;
+    }
+    .night_sale_name {
+      display: block;
+      left: 76px;
+      top: 2587px;
+      width: 235px;
+      height: 38px;
+      font-family: Montserrat;
+      font-weight: 900;
+      font-size: 36px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+      position: ;
+      opacity: 1;
+      text-align: left;
+
+    }
+    .night_sale_text {
+      display: block;
+      left: 80px;
+      top: 2630.7px;
+      width: 243.32px;
+      height: 32.3px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 12px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+      position: ;
+      margin-top: 5px;
+      opacity: 1;
+      text-align: left;
+
+    }
+    .coupons_block {
+      display: block;
+      position: absolute;
+      left: 53px;
+      top: 2780px;
+      width: 284px;
+      height: 115px;
+      background-color: #FF7F50;
+      opacity: 100%;
+      border: 1px solid #FFFFFF;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 2px 2px 8px #000000;
+      box-sizing: border-box;
+      margin-top: 30px;
+    }
+    .coupons_name {
+      display: block;
+      left: 76px;
+      top: 2587px;
+      width: 235px;
+      height: 38px;
+      font-family: Montserrat;
+      font-weight: 900;
+      font-size: 36px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+      position: ;
+      opacity: 1;
+      text-align: left;
+
+    }
+    .coupons_text {
+      display: block;
+      left: 80px;
+      top: 2430.7px;
+      width: 243.32px;
+      height: 32.3px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 12px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+      position: ;
+      margin-top: 5px;
+      opacity: 1;
+      text-align: left;
+    }
+    .coins_bot_block {
+      display: block;
+      position: absolute;
+      left: 53px;
+      top: 2895px;
+      width: 284px;
+      height: 184px;
+      background-color: #FF7F50;
+      opacity: 100%;
+      border: 1px solid #FFFFFF;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 2px 2px 8px #000000;
+      box-sizing: border-box;
+      margin-top: 45px;
+    }
+    .coins_bot_name {
+      display: block;
+      left: 76px;
+      top: 2587px;
+      width: 235px;
+      height: 38px;
+      font-family: Montserrat;
+      font-weight: 900;
+      font-size: 36px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+      position: ;
+      opacity: 1;
+      text-align: left;
+
+    }
+    .coins_bot_text {
+      display: block;
+      left: 80px;
+      top: 2630.7px;
+      width: 243.32px;
+      height: 32.3px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 12px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #FFFFFF;
+      position: ;
+      margin-top: 5px;
+      opacity: 1;
+      text-align: left;
+
+    }
+    .pedro_bot_block {
+      display: block;
+      position: absolute;
+      left: 53px;
+      top: 3079px;
+      width: 284px;
+      height: 184px;
+      background-color: #FF7F50;
+      opacity: 100%;
+      border: 1px solid #FFFFFF;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 2px 2px 8px #000000;
+      box-sizing: border-box;
+      margin-top: 60px;
+    }
+    .pedro_bot_name {
+      display: block;
+      left: 76px;
+      top: 2587px;
+      width: 235px;
+      height: 38px;
+      font-family: Montserrat;
+      font-weight: 900;
+      font-size: 36px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+      position: ;
+      opacity: 1;
+      text-align: left;
+
+    }
+    .pedro_bot_text {
+      display: block;
+      left: 80px;
+      top: 2630.7px;
+      width: 243.32px;
+      height: 32.3px;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 12px;
+      color: #FFFFFF;
+      text-shadow: 0px 0px 0px #000000;
+      position: ;
+      margin-top: 5px;
+      opacity: 1;
+      text-align: left;
+
+    }
+}
+
+/* PC */
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .fraim {
+    width: 1054px;
+    height: 2350px;
+  }
+  .main_logo {
+    width: 90px;
+    height: 90px;
+  }
+}
