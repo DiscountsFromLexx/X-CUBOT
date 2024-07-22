@@ -143,6 +143,19 @@
             <span class="thanks">シ Дякуємо що ви з нами, приємних покупок!</span><br>
         </div>
     </div>
+    <script>
+        function redirectToPage() {
+            if (window.matchMedia("(min-width: 1024px) and (max-width: 1600px)").matches) {
+                window.location.href = "https://discountsfromali.github.io/cubot/";
+            }
+        }
+
+        // Викликати функцію при завантаженні сторінки
+        window.addEventListener('load', redirectToPage);
+
+        // Викликати функцію при зміні розміру вікна
+        window.addEventListener('resize', redirectToPage);
+    </script>
 
 </body>
 </html>
