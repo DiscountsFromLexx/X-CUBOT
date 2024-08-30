@@ -187,6 +187,11 @@ body, .fraim {
   left: 272px;
   background-size: cover;
 }
+.COINS_SALE {
+  background: url("https://cdn3.iconfinder.com/data/icons/weather-forecast-flat-2/2010/Flat-29-512.png");
+  left: 272px;
+  background-size: cover;
+}
 .actions {
   background: url("https://cdn4.iconfinder.com/data/icons/business-and-finance-colorful-free-hand-drawn-set/100/sale_1-1024.png");
   left: 337px;
@@ -194,7 +199,7 @@ body, .fraim {
 }
 
 
- .coinsbot_name, .supercoins_name, .pedrobot_name, .coupons_name, .night_name, .action_name {
+ .coinsbot_name, .supercoins_name, .pedrobot_name, .coupons_name, .night_name, .action_name, .coins_name {
   top: 130px;
   width: 45px;
   height: 45px;
@@ -222,6 +227,9 @@ body, .fraim {
     left: 209px;
 }
     .night_name {
+    left: 275px;
+}
+    .coins_name {
     left: 275px;
 }
     .action_name {
