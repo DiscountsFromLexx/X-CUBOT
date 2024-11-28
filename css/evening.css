@@ -154,7 +154,7 @@ body, .fraim {
   z-index: 10;
 }
 
-.COINS_BOT, .supercoins, .PEDRO_BOT, .COUPONS, .NIGHT_SALE, .actions {
+.COINS_BOT, .supercoins, .PEDRO_BOT, .COUPONS, .NIGHT_SALE, .COINS_SALE, .actions {
   top: 80px;
   width: 47px;
   height: 45px;
