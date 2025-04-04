@@ -353,3 +353,21 @@ body, .fraim {
     height: 90px;
   }
 }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111111;
+        color: #ffffff;
+    }
+
+    .product-item {
+        background-color: #1e1e1e;
+        color: #ffffff;
+    }
+
+    .product-item p.link a {
+        background-color: #222;
+        color: #00aaff;
+        border-color: #00aaff;
+    }
+}
