@@ -37,6 +37,7 @@ body, .fraim {
   z-index: 10;
 }
 .night_block {
+  background-color: #ffffff;
   top: 114px;
   left: 0;
   width: auto;
