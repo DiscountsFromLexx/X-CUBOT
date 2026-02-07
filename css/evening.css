@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+.containerfull {  
+  top: 50px;   
+}
 body, .fraim {
     
     width: 100%;
@@ -30,7 +33,7 @@ body, .fraim {
   background: #FF7F50;
   opacity: 1;
   position: absolute;
-  top: 50px; 
+  top: 0px; 
   left: 0;
   overflow: hidden;
   box-sizing: border-box;
