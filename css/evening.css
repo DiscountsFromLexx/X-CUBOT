@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 
-.containerfull {  
-  margin-top: 50px;   
+body.containerfull {
+  top: 50px;    
 }
 body, .fraim {
     
